@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(34, 34, 66);
+    margin: 0;
+}
+
+#pre-section {
+    width: 100vw;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#pre-section img{
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+#pre-section h1{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
