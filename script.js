@@ -60,6 +60,28 @@ const inputValue = () => {
                 Please enter a number less than or equal to 3999.
             </span>
         `;
+    } else {
+        
+    }
+};
+
+const romanToArabic = (input) => {
+    if (input >= 1){
+        return "I";
+    } else if (input > 4){
+        return "IV";
+    } else if (input > 5){
+        return "V";
+    } else if (input > 9){
+        return "IX";
+    } else if (input > 10){
+        return "X";
+    } else if (input > 40){
+        return "XL";
+    } else if (input > 50){
+        return "L";
+    } else if (input > 90){
+        return "XC";
     }
 };
 
