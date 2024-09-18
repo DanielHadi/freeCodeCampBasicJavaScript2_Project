@@ -1,11 +1,16 @@
-body{
+*{
     box-sizing: border-box;
+}
+
+body{
     background-color: rgb(34, 34, 66);
     margin: 0;
+    padding: 0;
 }
 
 #pre-section {
-    width: 100vw;
+    width: 500px;
+    margin: 0 auto;
     margin-top: 50px;
     text-align: center;
 }
@@ -24,4 +29,48 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: whitesmoke;
     text-transform: uppercase;
+}
+
+#input-section{
+    background-color: rgb(93, 93, 93);
+    width: 475px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+}
+
+#input-section label[for="number"]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+#input-section #number{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 10px;
+    width: 400px;
+    height: 45px;
+    font-size: 30px;
+    background-color: rgb(14, 10, 51);
+    border: 1px solid white;
+    color: white;
+}
+
+#input-section #convert-btn{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 45px;
+    background-color: rgb(255, 191, 73);
+    border: 1px solid orange;
+}
+
+#input-section #convert-btn:hover{
+    cursor: pointer;
 }
